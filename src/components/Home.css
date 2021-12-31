@@ -1,0 +1,95 @@
+
+.container figure:hover{
+    transform: 0.5s;
+    transition: 0.5s;
+    transform: scale(1.2);
+
+}
+
+.container {
+    margin:0.5rem;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 21vh);
+    grid-gap: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.p1{
+   grid-column: 1/span 2;
+   grid-row: 1/ span 2;
+}
+.p2{
+    grid-column: 5/span 1;
+    grid-row: 1/ span 1;
+}
+.p3{
+    grid-column: 3/span 1;
+    grid-row: 2/ span 1;
+}
+.p4{
+    grid-column: 3/span 2;
+    grid-row: 1/ span 1;
+}
+.p5{
+    grid-column: 6/span 3;
+    grid-row: 2/ span 1;
+}
+.p6{
+    grid-column: 1/span 2;
+    grid-row: 4/ span 1;
+}
+.p7{
+    grid-column: 1/span 1;
+   grid-row: 3/ span 1;
+}
+.p8{
+    grid-column: 7/span 1;
+   grid-row: 4/ span 1;
+
+}
+.p9{
+ 
+}
+.p10{
+    grid-column: 4/span 1;
+    grid-row: 3/ span 2;
+}
+.p11{
+    grid-column: 2/span 1;
+    grid-row: 3/ span 1;
+}
+.p12{
+
+}
+.p13{
+    grid-column: 6/span 1;
+    grid-row: 1/ span 1;
+}
+.p14{
+    grid-column: 7/-1;
+    grid-row: 1/ span 1;
+}
+.p15{
+    grid-column: 8/span 1;
+   grid-row: 4/ span 1;
+
+}
+.p16{
+    grid-column: 3/span 1;
+    grid-row: 3/ span 2;
+
+}
+.p17{
+    grid-column: 5/span 2;
+   grid-row: 3/ span 2;
+}
+.p18{
+    grid-column: 4/span 2;
+    grid-row: 2/ span 1;
+}
+.p19{
+    grid-column: 7/span 2;
+    grid-row: 3/ span 1;
+}
+

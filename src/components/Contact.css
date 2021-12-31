@@ -1,0 +1,77 @@
+
+.ContactCenter {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  align-items: center;
+
+}
+.centerForm {
+  position: relative;
+  padding:2rem 4rem;
+  background: #fff;
+  border-radius: 2rem;
+}
+.centerForm h1 {
+  font-size: 2rem;
+  border-left: 5px solid orange;
+
+  letter-spacing: 0.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+.centerForm .inputbox {
+  position: relative;
+  width:100%;
+  margin-bottom:2rem;
+}
+.centerForm .inputbox input {
+
+
+  width: 100%;
+  border: 2px solid #000;
+  outline: none;
+  background: none;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  font-size: 0.8rem;
+}
+
+.centerForm .inputbox:last-child {
+  margin-bottom: 0;
+}
+.centerForm .inputbox span {
+  position: absolute;
+  top: 1rem;
+  left: 1.2rem;
+  font-size: 1em;
+  transition: 0.6s;
+}
+.centerForm .inputbox input:focus ~ span,
+.centerForm .inputbox input:valid ~ span {
+  transform: translateX(-13px) translateY(-35px);
+  font-size: 1em;
+}
+.centerForm .inputbox [type="submit"] {
+
+  width: 100%;
+  font-size: 1rem;
+  background: linear-gradient(to left,#C6FFDD, #FBD786,#f7797d);
+  color: black;
+  border: #fff;
+  font-family: "Sansita Swashed", cursive;
+}
+.centerForm .inputbox:hover [type="submit"] {
+  background: linear-gradient(to right,#C6FFDD, red,yellow);
+}
+.centerForm .mail input {
+    height: 8rem;
+}
+.error{
+  color: red;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}

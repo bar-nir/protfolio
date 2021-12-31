@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Sansita Swashed", cursive;
+  background: linear-gradient(to left,#C6FFDD, #FBD786,#f7797d);
+}
+
+
